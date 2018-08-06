@@ -1,21 +1,5 @@
 # teach-you-search
 
-## Project setup
-```
-npm install
-```
+Try it: [https://ethonlau.github.io/teach-you-search/?keyword=skr是什么意思](https://ethonlau.github.io/teach-you-search/?keyword=skr是什么意思)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+![image](https://github.com/ethonlau/teach-you-search/blob/master/image/img.gif)
