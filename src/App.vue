@@ -20,7 +20,7 @@
           <div id="js-tip">✅ 链接已复制</div>
           <div class="subtitle">{{ url }}</div>
         </template>
-        <input type="input" v-model="content" placeholder="例如：什么是简书">
+        <input type="input" v-model="content" placeholder="例如：skr是什么意思">
         <button :class="{ 'no-content': !content }" @click="create" ref="copyLink" :data-clipboard-text="url">
           <template v-if="createTime > 0">再次</template>生成
         </button>
