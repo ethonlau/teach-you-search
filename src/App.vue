@@ -8,7 +8,7 @@
           <div class="mouse"></div>
         </div>
       </div>
-      <a @click="goToCreate">我也要生成</a>
+      <a href="/teach-you-search">我也要生成</a>
     </template>
     <template v-else>
       <div class="create">
@@ -75,9 +75,6 @@ export default {
       setTimeout(() => {
         tip.classList.remove("highlight")
       }, 500)
-    },
-    goToCreate () {
-      window.location = '/'
     }
   }
 }
@@ -249,7 +246,6 @@ body {
     color: #3388FF;
     text-decoration: none;
     border-bottom: 1px solid #3388FF;
-    cursor: pointer;
   }
 
   .create {
