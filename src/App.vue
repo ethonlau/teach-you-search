@@ -77,7 +77,7 @@ export default {
       }, 500)
     },
     goToCreate () {
-      window.location = window.location.host + window.location.pathname
+      window.location = '/'
     }
   }
 }
@@ -249,6 +249,7 @@ body {
     color: #3388FF;
     text-decoration: none;
     border-bottom: 1px solid #3388FF;
+    cursor: pointer;
   }
 
   .create {
