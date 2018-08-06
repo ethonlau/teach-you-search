@@ -53,7 +53,7 @@ export default {
       return(false);
     },
     url () {
-      return window.location + '?keyword=' + this.content
+      return window.location + '?keyword=' + encodeURI(this.content)
     }
   },
   mounted() {
