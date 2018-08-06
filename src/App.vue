@@ -8,7 +8,7 @@
           <div class="mouse"></div>
         </div>
       </div>
-      <a href="/">我也要生成</a>
+      <a @click="goToCreate">我也要生成</a>
     </template>
     <template v-else>
       <div class="create">
@@ -75,6 +75,9 @@ export default {
       setTimeout(() => {
         tip.classList.remove("highlight")
       }, 500)
+    },
+    goToCreate () {
+      window.location = window.location.host + window.location.pathname
     }
   }
 }
